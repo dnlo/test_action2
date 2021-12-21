@@ -28,7 +28,8 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo Hello, world!
-
+      - name: Test env
+        run: cat action_env_test 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
